@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8135B9E5C7C314845C939658 /* Pods_SeptaMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E4292DF1EC647504215B38 /* Pods_SeptaMobileTests.framework */; };
+		A8987A9DFF6FCA4FD2711C9B /* Pods_SeptaMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB171520C7FBF764729C4468 /* Pods_SeptaMobile.framework */; };
+		B022FBFE23AF9B4000CBEBEC /* AppTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B022FBFD23AF9B4000CBEBEC /* AppTitleView.swift */; };
+		B022FC0023AF9BC900CBEBEC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B022FBFF23AF9BC900CBEBEC /* SignInView.swift */; };
+		B022FC0223AF9C1300CBEBEC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B022FC0123AF9C1300CBEBEC /* SignUpView.swift */; };
+		B022FC0423AF9C4C00CBEBEC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B022FC0323AF9C4C00CBEBEC /* WelcomeView.swift */; };
+		B03BA73723AF97A000ACB33D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B03BA73623AF97A000ACB33D /* GoogleService-Info.plist */; };
+		B03BA73823AF97A000ACB33D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B03BA73623AF97A000ACB33D /* GoogleService-Info.plist */; };
+		B03BA73923AF97A000ACB33D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B03BA73623AF97A000ACB33D /* GoogleService-Info.plist */; };
+		B046F81E23AF96470031D578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046F81D23AF96470031D578 /* AppDelegate.swift */; };
+		B046F82023AF96470031D578 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046F81F23AF96470031D578 /* SceneDelegate.swift */; };
+		B046F82223AF96470031D578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046F82123AF96470031D578 /* ContentView.swift */; };
+		B046F82423AF96490031D578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B046F82323AF96490031D578 /* Assets.xcassets */; };
+		B046F82723AF96490031D578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B046F82623AF96490031D578 /* Preview Assets.xcassets */; };
+		B046F82A23AF96490031D578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B046F82823AF96490031D578 /* LaunchScreen.storyboard */; };
+		B046F83523AF96490031D578 /* SeptaMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046F83423AF96490031D578 /* SeptaMobileTests.swift */; };
+		B046F84023AF96490031D578 /* SeptaMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B046F83F23AF96490031D578 /* SeptaMobileUITests.swift */; };
+		FBC3C23E86650317D887E5EB /* Pods_SeptaMobile_SeptaMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BED66477F2F0ADAA0E6F24 /* Pods_SeptaMobile_SeptaMobileUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B046F83123AF96490031D578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B046F81223AF96470031D578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B046F81923AF96470031D578;
+			remoteInfo = SeptaMobile;
+		};
+		B046F83C23AF96490031D578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B046F81223AF96470031D578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B046F81923AF96470031D578;
+			remoteInfo = SeptaMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16EC799CD39CE05F76B97377 /* Pods-SeptaMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptaMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-SeptaMobileTests/Pods-SeptaMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40C2616DD361E7E51D435684 /* Pods-SeptaMobile-SeptaMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptaMobile-SeptaMobileUITests.release.xcconfig"; path = "Target Support Files/Pods-SeptaMobile-SeptaMobileUITests/Pods-SeptaMobile-SeptaMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63C3D0C0A110859B1DF12279 /* Pods-SeptaMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptaMobileTests.release.xcconfig"; path = "Target Support Files/Pods-SeptaMobileTests/Pods-SeptaMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		63E4292DF1EC647504215B38 /* Pods_SeptaMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeptaMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88227F55C806FDF84A502B90 /* Pods-SeptaMobile-SeptaMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptaMobile-SeptaMobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-SeptaMobile-SeptaMobileUITests/Pods-SeptaMobile-SeptaMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3CEF5A24AECC146BBD4C678 /* Pods-SeptaMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptaMobile.debug.xcconfig"; path = "Target Support Files/Pods-SeptaMobile/Pods-SeptaMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		B022FBFD23AF9B4000CBEBEC /* AppTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTitleView.swift; sourceTree = "<group>"; };
+		B022FBFF23AF9BC900CBEBEC /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B022FC0123AF9C1300CBEBEC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B022FC0323AF9C4C00CBEBEC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B03BA73623AF97A000ACB33D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B046F81A23AF96470031D578 /* SeptaMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeptaMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B046F81D23AF96470031D578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B046F81F23AF96470031D578 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B046F82123AF96470031D578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B046F82323AF96490031D578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B046F82623AF96490031D578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B046F82923AF96490031D578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B046F82B23AF96490031D578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B046F83023AF96490031D578 /* SeptaMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeptaMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B046F83423AF96490031D578 /* SeptaMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeptaMobileTests.swift; sourceTree = "<group>"; };
+		B046F83623AF96490031D578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B046F83B23AF96490031D578 /* SeptaMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeptaMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B046F83F23AF96490031D578 /* SeptaMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeptaMobileUITests.swift; sourceTree = "<group>"; };
+		B046F84123AF96490031D578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5D7D8A199BB5A6DAF5624A /* Pods-SeptaMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeptaMobile.release.xcconfig"; path = "Target Support Files/Pods-SeptaMobile/Pods-SeptaMobile.release.xcconfig"; sourceTree = "<group>"; };
+		DB171520C7FBF764729C4468 /* Pods_SeptaMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeptaMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BED66477F2F0ADAA0E6F24 /* Pods_SeptaMobile_SeptaMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeptaMobile_SeptaMobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B046F81723AF96470031D578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8987A9DFF6FCA4FD2711C9B /* Pods_SeptaMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046F82D23AF96490031D578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8135B9E5C7C314845C939658 /* Pods_SeptaMobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046F83823AF96490031D578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC3C23E86650317D887E5EB /* Pods_SeptaMobile_SeptaMobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B046F81123AF96460031D578 = {
+			isa = PBXGroup;
+			children = (
+				B046F81C23AF96470031D578 /* SeptaMobile */,
+				B046F83323AF96490031D578 /* SeptaMobileTests */,
+				B046F83E23AF96490031D578 /* SeptaMobileUITests */,
+				B046F81B23AF96470031D578 /* Products */,
+				E51919AB46D55B6766A06C3E /* Pods */,
+				B873BF06123F210EC40E4547 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B046F81B23AF96470031D578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B046F81A23AF96470031D578 /* SeptaMobile.app */,
+				B046F83023AF96490031D578 /* SeptaMobileTests.xctest */,
+				B046F83B23AF96490031D578 /* SeptaMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B046F81C23AF96470031D578 /* SeptaMobile */ = {
+			isa = PBXGroup;
+			children = (
+				B046F81D23AF96470031D578 /* AppDelegate.swift */,
+				B022FBFF23AF9BC900CBEBEC /* SignInView.swift */,
+				B022FC0123AF9C1300CBEBEC /* SignUpView.swift */,
+				B022FC0323AF9C4C00CBEBEC /* WelcomeView.swift */,
+				B022FBFD23AF9B4000CBEBEC /* AppTitleView.swift */,
+				B046F81F23AF96470031D578 /* SceneDelegate.swift */,
+				B046F82123AF96470031D578 /* ContentView.swift */,
+				B046F82323AF96490031D578 /* Assets.xcassets */,
+				B046F82823AF96490031D578 /* LaunchScreen.storyboard */,
+				B03BA73623AF97A000ACB33D /* GoogleService-Info.plist */,
+				B046F82B23AF96490031D578 /* Info.plist */,
+				B046F82523AF96490031D578 /* Preview Content */,
+			);
+			path = SeptaMobile;
+			sourceTree = "<group>";
+		};
+		B046F82523AF96490031D578 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B046F82623AF96490031D578 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B046F83323AF96490031D578 /* SeptaMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				B046F83423AF96490031D578 /* SeptaMobileTests.swift */,
+				B046F83623AF96490031D578 /* Info.plist */,
+			);
+			path = SeptaMobileTests;
+			sourceTree = "<group>";
+		};
+		B046F83E23AF96490031D578 /* SeptaMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B046F83F23AF96490031D578 /* SeptaMobileUITests.swift */,
+				B046F84123AF96490031D578 /* Info.plist */,
+			);
+			path = SeptaMobileUITests;
+			sourceTree = "<group>";
+		};
+		B873BF06123F210EC40E4547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB171520C7FBF764729C4468 /* Pods_SeptaMobile.framework */,
+				F4BED66477F2F0ADAA0E6F24 /* Pods_SeptaMobile_SeptaMobileUITests.framework */,
+				63E4292DF1EC647504215B38 /* Pods_SeptaMobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E51919AB46D55B6766A06C3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3CEF5A24AECC146BBD4C678 /* Pods-SeptaMobile.debug.xcconfig */,
+				CE5D7D8A199BB5A6DAF5624A /* Pods-SeptaMobile.release.xcconfig */,
+				88227F55C806FDF84A502B90 /* Pods-SeptaMobile-SeptaMobileUITests.debug.xcconfig */,
+				40C2616DD361E7E51D435684 /* Pods-SeptaMobile-SeptaMobileUITests.release.xcconfig */,
+				16EC799CD39CE05F76B97377 /* Pods-SeptaMobileTests.debug.xcconfig */,
+				63C3D0C0A110859B1DF12279 /* Pods-SeptaMobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B046F81923AF96470031D578 /* SeptaMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B046F84423AF96490031D578 /* Build configuration list for PBXNativeTarget "SeptaMobile" */;
+			buildPhases = (
+				63636AF97B587376278BE3B1 /* [CP] Check Pods Manifest.lock */,
+				B046F81623AF96470031D578 /* Sources */,
+				B046F81723AF96470031D578 /* Frameworks */,
+				B046F81823AF96470031D578 /* Resources */,
+				912FC65B3DBD2B9C310C2B07 /* [CP] Embed Pods Frameworks */,
+				A9AB7110095F174F6C9A7EE1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeptaMobile;
+			productName = SeptaMobile;
+			productReference = B046F81A23AF96470031D578 /* SeptaMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B046F82F23AF96490031D578 /* SeptaMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B046F84723AF96490031D578 /* Build configuration list for PBXNativeTarget "SeptaMobileTests" */;
+			buildPhases = (
+				F130F3CDDC33CDD6CADE12EF /* [CP] Check Pods Manifest.lock */,
+				B046F82C23AF96490031D578 /* Sources */,
+				B046F82D23AF96490031D578 /* Frameworks */,
+				B046F82E23AF96490031D578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B046F83223AF96490031D578 /* PBXTargetDependency */,
+			);
+			name = SeptaMobileTests;
+			productName = SeptaMobileTests;
+			productReference = B046F83023AF96490031D578 /* SeptaMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B046F83A23AF96490031D578 /* SeptaMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B046F84A23AF96490031D578 /* Build configuration list for PBXNativeTarget "SeptaMobileUITests" */;
+			buildPhases = (
+				169E84817C13C87102E81CD5 /* [CP] Check Pods Manifest.lock */,
+				B046F83723AF96490031D578 /* Sources */,
+				B046F83823AF96490031D578 /* Frameworks */,
+				B046F83923AF96490031D578 /* Resources */,
+				5A2EBE1B25BDD1FAEBB379BF /* [CP] Embed Pods Frameworks */,
+				70E4D44C8B09D17CDEB9DF66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B046F83D23AF96490031D578 /* PBXTargetDependency */,
+			);
+			name = SeptaMobileUITests;
+			productName = SeptaMobileUITests;
+			productReference = B046F83B23AF96490031D578 /* SeptaMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B046F81223AF96470031D578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mike Chirico";
+				TargetAttributes = {
+					B046F81923AF96470031D578 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					B046F82F23AF96490031D578 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B046F81923AF96470031D578;
+					};
+					B046F83A23AF96490031D578 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B046F81923AF96470031D578;
+					};
+				};
+			};
+			buildConfigurationList = B046F81523AF96470031D578 /* Build configuration list for PBXProject "SeptaMobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B046F81123AF96460031D578;
+			productRefGroup = B046F81B23AF96470031D578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B046F81923AF96470031D578 /* SeptaMobile */,
+				B046F82F23AF96490031D578 /* SeptaMobileTests */,
+				B046F83A23AF96490031D578 /* SeptaMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B046F81823AF96470031D578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B046F82A23AF96490031D578 /* LaunchScreen.storyboard in Resources */,
+				B03BA73723AF97A000ACB33D /* GoogleService-Info.plist in Resources */,
+				B046F82723AF96490031D578 /* Preview Assets.xcassets in Resources */,
+				B046F82423AF96490031D578 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046F82E23AF96490031D578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03BA73823AF97A000ACB33D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046F83923AF96490031D578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03BA73923AF97A000ACB33D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		169E84817C13C87102E81CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeptaMobile-SeptaMobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A2EBE1B25BDD1FAEBB379BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile-SeptaMobileUITests/Pods-SeptaMobile-SeptaMobileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile-SeptaMobileUITests/Pods-SeptaMobile-SeptaMobileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile-SeptaMobileUITests/Pods-SeptaMobile-SeptaMobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63636AF97B587376278BE3B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeptaMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70E4D44C8B09D17CDEB9DF66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile-SeptaMobileUITests/Pods-SeptaMobile-SeptaMobileUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile-SeptaMobileUITests/Pods-SeptaMobile-SeptaMobileUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile-SeptaMobileUITests/Pods-SeptaMobile-SeptaMobileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		912FC65B3DBD2B9C310C2B07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile/Pods-SeptaMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile/Pods-SeptaMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile/Pods-SeptaMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9AB7110095F174F6C9A7EE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile/Pods-SeptaMobile-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile/Pods-SeptaMobile-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeptaMobile/Pods-SeptaMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F130F3CDDC33CDD6CADE12EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeptaMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B046F81623AF96470031D578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B046F81E23AF96470031D578 /* AppDelegate.swift in Sources */,
+				B046F82023AF96470031D578 /* SceneDelegate.swift in Sources */,
+				B046F82223AF96470031D578 /* ContentView.swift in Sources */,
+				B022FBFE23AF9B4000CBEBEC /* AppTitleView.swift in Sources */,
+				B022FC0223AF9C1300CBEBEC /* SignUpView.swift in Sources */,
+				B022FC0023AF9BC900CBEBEC /* SignInView.swift in Sources */,
+				B022FC0423AF9C4C00CBEBEC /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046F82C23AF96490031D578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B046F83523AF96490031D578 /* SeptaMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046F83723AF96490031D578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B046F84023AF96490031D578 /* SeptaMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B046F83223AF96490031D578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B046F81923AF96470031D578 /* SeptaMobile */;
+			targetProxy = B046F83123AF96490031D578 /* PBXContainerItemProxy */;
+		};
+		B046F83D23AF96490031D578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B046F81923AF96470031D578 /* SeptaMobile */;
+			targetProxy = B046F83C23AF96490031D578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B046F82823AF96490031D578 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B046F82923AF96490031D578 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B046F84223AF96490031D578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B046F84323AF96490031D578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B046F84523AF96490031D578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CEF5A24AECC146BBD4C678 /* Pods-SeptaMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SeptaMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SeptaMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.SeptaMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B046F84623AF96490031D578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5D7D8A199BB5A6DAF5624A /* Pods-SeptaMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SeptaMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SeptaMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.SeptaMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B046F84823AF96490031D578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16EC799CD39CE05F76B97377 /* Pods-SeptaMobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = SeptaMobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.SeptaMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeptaMobile.app/SeptaMobile";
+			};
+			name = Debug;
+		};
+		B046F84923AF96490031D578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C3D0C0A110859B1DF12279 /* Pods-SeptaMobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = SeptaMobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.SeptaMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeptaMobile.app/SeptaMobile";
+			};
+			name = Release;
+		};
+		B046F84B23AF96490031D578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88227F55C806FDF84A502B90 /* Pods-SeptaMobile-SeptaMobileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = SeptaMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.SeptaMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeptaMobile;
+			};
+			name = Debug;
+		};
+		B046F84C23AF96490031D578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C2616DD361E7E51D435684 /* Pods-SeptaMobile-SeptaMobileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = SeptaMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.SeptaMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeptaMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B046F81523AF96470031D578 /* Build configuration list for PBXProject "SeptaMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B046F84223AF96490031D578 /* Debug */,
+				B046F84323AF96490031D578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B046F84423AF96490031D578 /* Build configuration list for PBXNativeTarget "SeptaMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B046F84523AF96490031D578 /* Debug */,
+				B046F84623AF96490031D578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B046F84723AF96490031D578 /* Build configuration list for PBXNativeTarget "SeptaMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B046F84823AF96490031D578 /* Debug */,
+				B046F84923AF96490031D578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B046F84A23AF96490031D578 /* Build configuration list for PBXNativeTarget "SeptaMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B046F84B23AF96490031D578 /* Debug */,
+				B046F84C23AF96490031D578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B046F81223AF96470031D578 /* Project object */;
+}
